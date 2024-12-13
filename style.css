@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+
+#rectangle {
+    text-align: center;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 640px;
+}
+
+.image img {
+    height: 22rem;
+
+}
+
+.nameandlogo{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.logo img{
+    height: 50px;
+}
+
+#logo{
+    display: inline-block;
+}
+#logo img{
+    height: 60px;
+}
+
+.info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.addressandcont{
+    display: flex;
+}
+.address{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: left;
+    margin-bottom: 10px;
+}
+.contact{
+    text-align: right;
+    font-size: 17px ;
+}
+.contact a{
+    color: rgb(237, 13, 13);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.contact :hover{
+    color: green;
+    transition: color 0.5s;
+}
+.button button{
+    height: 4vh;
+    width: 6rem;
+    font-size: large;
+    color: white;
+    background-color: rgb(2, 158, 255);
+    border: 0.5px solid rgb(0, 145, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.5s;
+}
+.button button a{
+    color: white;
+    text-decoration: none;
+}
+
+.button button:hover{
+    box-shadow: 1vh 1vh 50px rgba(0, 0, 0, 0.15);
+    background-color: rgb(111, 129, 201);
+    transition: background-color 0.5s;
+
+}
+
+.abt{
+    text-align: left;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    margin-bottom: 11px;
+}
+.about{
+    text-align: left;
+    font-size: 15px;
+}
